@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ES6",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "outDir": "lib",
+    "typeRoots": ["node_modules/@types"],
+    "declaration": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true
+  },
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "exclude": [
+    "./lib",
+    "./dist"
+  ]
+}

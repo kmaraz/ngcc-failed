@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "sourceMap": true,
+    "declaration": false,
+    "target": "es5",
+    "module": "es2020",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "lib": ["es2018", "dom"],
+    "moduleResolution": "node",
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "typeRoots": ["node_modules/@types"],
+    "noImplicitReturns": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "incremental": true,
+    "removeComments": true,
+    "strictNullChecks": true
+  },
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "exclude": [
+    "app/submodules/slido-privacy-manager/**/*.spec.ts",
+    "app/submodules/slido-privacy-manager/lib",
+    "app/submodules/slido-schematics",
+    "app/submodules/stream-client",
+    "app/exports/ng-pick-datetime",
+    "tests/"
+  ],
+  "angularCompilerOptions": {
+    "annotateForClosureCompiler": false,
+    "enableIvy": true,
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true,
+    "strictTemplates": true,
+    "trace": false
+  }
+}
