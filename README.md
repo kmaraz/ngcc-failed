@@ -2,6 +2,10 @@
 
 Run:
 ```
+yarn
+```
+and then
+```
 yarn run failsdev
 ```
 or
